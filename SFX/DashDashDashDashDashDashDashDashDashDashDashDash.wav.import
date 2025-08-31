@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/DashDashDashDashDashDashDashDashDashDashDashDash.wav-7204c03723e020f8300b4fe9c6b9d9fe.sample"
+
+[deps]
+
+source_file="res://SFX/DashDashDashDashDashDashDashDashDashDashDashDash.wav"
+dest_files=[ "res://.import/DashDashDashDashDashDashDashDashDashDashDashDash.wav-7204c03723e020f8300b4fe9c6b9d9fe.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop=false
+compress/mode=0

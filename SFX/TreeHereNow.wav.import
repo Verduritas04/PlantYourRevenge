@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/TreeHereNow.wav-c37e8deeb4cbe61e076ea5c33cf5c7c8.sample"
+
+[deps]
+
+source_file="res://SFX/TreeHereNow.wav"
+dest_files=[ "res://.import/TreeHereNow.wav-c37e8deeb4cbe61e076ea5c33cf5c7c8.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop=false
+compress/mode=0

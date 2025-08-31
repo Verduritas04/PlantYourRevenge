@@ -1,0 +1,62 @@
+[gd_scene load_steps=6 format=2]
+
+[ext_resource path="res://Resources/Font.tres" type="DynamicFont" id=1]
+[ext_resource path="res://Fonts/8-BIT WONDER.TTF" type="DynamicFontData" id=2]
+[ext_resource path="res://Scripts/YouWin.gd" type="Script" id=3]
+[ext_resource path="res://SFX/YouWinMyFriend.wav" type="AudioStream" id=4]
+
+[sub_resource type="DynamicFont" id=1]
+size = 9
+font_data = ExtResource( 2 )
+
+[node name="YouWin" type="Control"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+script = ExtResource( 3 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ColorRect" type="ColorRect" parent="."]
+margin_left = 64.0
+margin_top = 56.0
+margin_right = 416.0
+margin_bottom = 208.0
+color = Color( 0.337255, 0.360784, 0.443137, 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Label" type="Label" parent="."]
+margin_left = 88.0
+margin_top = 72.0
+margin_right = 392.0
+margin_bottom = 120.0
+custom_fonts/font = ExtResource( 1 )
+custom_colors/font_color = Color( 0.709804, 0.690196, 0.866667, 1 )
+text = "YOU WON"
+align = 1
+valign = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Label2" type="Label" parent="."]
+margin_left = 88.0
+margin_top = 136.0
+margin_right = 392.0
+margin_bottom = 184.0
+custom_fonts/font = SubResource( 1 )
+custom_colors/font_color = Color( 0.603922, 0.592157, 0.764706, 1 )
+text = "Press SPACE to continue"
+align = 1
+valign = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 4 )
+volume_db = -5.0
+pitch_scale = 0.9
+autoplay = true
